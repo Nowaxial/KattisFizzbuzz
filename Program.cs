@@ -21,7 +21,7 @@ class Program
         // Skapa variabler för de tre talen
         int x = 0, y = 0, n = 0;
 
-        // Använd en loop för att konvertera och validera talen
+        // Använd en loop för att göra om string till int och se om det är heltal mellan 1 -100
         for (int i = 0; i < 3; i++)
         {
             if (!int.TryParse(inputNumbers[i], out int num) || num < 1 || num > 100)
